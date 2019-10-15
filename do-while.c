@@ -8,14 +8,13 @@ int main()
 	
 	printf("%d\t%d\t",a,b);
 	
-	while(i<=n)
+	while((i++)<=n)
 	{
 		
 		c=a+b;
 		printf("%d\t",c);
 		a=b;
 		b=c;
-		i++;
 		
 	}
 	
